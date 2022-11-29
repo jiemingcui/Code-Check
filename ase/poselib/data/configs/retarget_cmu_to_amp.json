@@ -1,0 +1,28 @@
+{
+    "source_motion": "/home/cjm/physics/ASE/ase/data/motions/ahoi_humanoid_chair/smpl_0243.npy",
+    "target_motion_path": "../data/motions/smpl_271_amp.npy",
+    "source_tpose": "data/chair_humanoid_tpose.npy",
+    "target_tpose": "data/amp_humanoid_tpose.npy",
+    "joint_mapping": {
+        "Pelvis" : "pelvis",
+        "L_Hip" : "left_thigh",
+        "R_Hip" : "right_thigh",
+        "Head" : "head",
+        "L_Knee" : "left_shin",
+        "R_Knee" : "right_shin",
+        "L_Ankle" : "left_foot",
+        "R_Ankle" : "right_foot",
+        "Torso" : "torso",
+        "L_Shoulder" : "left_upper_arm",
+        "R_Shoulder" : "right_upper_arm",
+        "L_Elbow" : "left_lower_arm",
+        "R_Elbow" : "right_lower_arm",
+        "L_Wrist" : "right_hand",
+        "R_Wrist" : "left_hand"
+    },
+    "rotation": [1, 0, 0, 0],
+    "scale": 0.056444,
+	"root_height_offset": 0,
+	"trim_frame_beg": 50,
+	"trim_frame_end": 1000
+}
